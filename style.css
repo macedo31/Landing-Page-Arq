@@ -1,0 +1,118 @@
+*
+{ background-color: #303030;}
+
+    #tituloMenuSuperior {color: #FFFFFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+margin-top: 150px;
+margin-left: 62px;}
+
+#subtituloMenuSuperior {
+    color: #FFFFFF;
+margin-left: 62px;
+font-weight: 500;
+font-style: normal;
+}
+
+#SegundoMenu {
+    background-color: #f9f9f9;
+}
+    
+#tituloMenuSuperior { font-size: 60px;
+margin-bottom: auto;}
+#subtituloMenuSuperior {font-size: 20px;
+margin-bottom: 100px;}
+
+.icones {
+padding: 50px;
+background-color: #f9f9f9;}
+
+#oitocentoscinquenta {
+margin-left: 120px;
+font-size: 40px;}
+
+#quarenta {
+margin-left: 1px;
+font-size: 40px;}
+
+#doismilhoes {
+margin-left: 10px;}
+
+#tituloTM {
+    font-size: 40px;
+    margin-top: 260px;
+    margin-left: 60px;
+    }
+    
+    #subtituloTM {
+        font-size: 25px;
+        margin-left: 60px;
+
+    }
+    
+    #TerceiroMenu {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #FFFFFF;
+    }
+    
+    #office {
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    #textoTM{background-color: #FFFFFF;
+
+    }
+    
+    .TM {background-color: #FFFFFF;
+        
+    }
+    
+    #tituloQM {
+    color: #FFFFFF;
+    align-items: center;
+    margin-left: 450px;
+    background-color: aquamarine;
+    }
+
+    #Formularios{
+        background-color: #303030;
+        text-align: center;
+    }
+
+    #tituloform {
+        color: #FFFFFF;
+    }
+
+    .form{ width: 400px;
+        height: 72px;
+        border: 0px;
+        background-color: aliceblue;
+        padding-left: 20px;
+        border-radius: 10px;
+
+
+    }
+
+    #Faleconosco {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 30px;
+        background-color: #C07212;
+        cursor: pointer;
+        font-weight: bolder;
+        border-radius: 5px;
+
+    }
+
+    button:hover{
+        background-color: #0b0702;
+        transform: translateY(-7px);
+        box-shadow: 0px 10px 15px #191107 ;
+        transition: 1s;
+    }
+
+  
