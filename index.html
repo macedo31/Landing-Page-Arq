@@ -59,6 +59,27 @@
                 <input type="email" class="form" placeholder="Email" name="Email" required > <br> <br>
                 <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
                 <button id="Faleconosco" type="submit">Fale Conosco</button>
+
+
+                 <style>
+                .blink { animation: blink 7s infinite; }
+
+        @keyframes blink {50% {
+            opacity: 0;}
+        }
+        </style>
+                <script>
+                    function tornarBotaoPiscante() {
+                        var botao = document.getElementById('Faleconosco');
+                        botao.classList.add('blink');
+                    }
+            
+                    document.addEventListener('DOMContentLoaded', function() {
+                        tornarBotaoPiscante();
+                    });
+                </script>
+
+
     
                </form>
                 
